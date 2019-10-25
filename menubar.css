@@ -1,0 +1,45 @@
+header{
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 6rem;
+    border: 2px red solid;
+    display: flex;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.hamburger{
+    border: blue solid 2px;
+    width: 7%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.hamburger >*{
+    margin-top: 1.4rem;
+}
+
+.overText{
+    border: green solid 2px;
+    width: 86%;
+    height: 100%;
+}
+
+.overText >*{
+    margin-left: 0.4rem;
+    margin-top: 1.4rem;
+}
+
+.enhanceText{
+    border: yellow solid 2px;
+    width: 7%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.enhanceText >*{
+    margin-top: 1.4rem;
+}
