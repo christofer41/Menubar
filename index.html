@@ -10,21 +10,29 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="topnav">
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-        <div id="myLinks">
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-            </div>
-        <a href="#home" class="active">Logo</a>
-        <!-- Navigation links (hidden by default) -->
-
-    </div>
+    <header>
+        <div class="hamburger">
+            <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+            <i class="fa fa-bars" style="font-size: 39px;"></i>
+            </a>
+        </div>
+        <div class="headText">
+            <h2>I LOVE CODE</h2>
+        </div>
+        <div class="resizeMe">
+            <a href="javascript:void(0);" class="textIcon" onclick="resizeText()">
+                <i class="fas fa-binoculars"" style="font-size: 39px;"></i>
+            </a>
+        </div>
+    </header>
     <main>
+        <div id="myLinks">
+            <h2>Om Mig</h2>
+            <h2>Studier</h2>
+            <h2>Jobb</h2>
+            <h2>Framtid</h2>
+        </div>
+        <div id="myText">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolor expedita illum eos illo voluptates aliquid? Aliquam autem in doloremque eveniet soluta possimus sequi laudantium, natus, dolor ad, quos eum.
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolor expedita illum eos illo voluptates aliquid? Aliquam autem in doloremque eveniet soluta possimus sequi laudantium, natus, dolor ad, quos eum.
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolor expedita illum eos illo voluptates aliquid? Aliquam autem in doloremque eveniet soluta possimus sequi laudantium, natus, dolor ad, quos eum.
@@ -57,6 +65,7 @@
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolor expedita illum eos illo voluptates aliquid? Aliquam autem in doloremque eveniet soluta possimus sequi laudantium, natus, dolor ad, quos eum.
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolor expedita illum eos illo voluptates aliquid? Aliquam autem in doloremque eveniet soluta possimus sequi laudantium, natus, dolor ad, quos eum.
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolor expedita illum eos illo voluptates aliquid? Aliquam autem in doloremque eveniet soluta possimus sequi laudantium, natus, dolor ad, quos eum.</p>
+        </div>
     </main>
 </body>
 </html>
